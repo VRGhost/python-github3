@@ -2,7 +2,7 @@
 # -*- encoding: utf-8 -*-
 
 from .base import Handler, MimeTypeMixin
-from github3 import models
+from .. import models
 
 
 class Gist(Handler, MimeTypeMixin):

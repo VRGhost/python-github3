@@ -4,8 +4,8 @@
 # author: David Medina
 
 from .base import Handler
-import github3.models as models
-from github3.converters import Rawlizer
+import ..models as models
+from ..converters import Rawlizer
 
 class User(Handler):
     """ User handler with public access """

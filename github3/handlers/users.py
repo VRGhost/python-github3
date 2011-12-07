@@ -2,9 +2,9 @@
 # -*- encoding: utf-8 -*-
 
 from .base import Handler
-from github3 import models
-from github3.converters import Rawlizer
-from github3.exceptions import UserIsAnonymous
+from .. import models
+from ..converters import Rawlizer
+from ..exceptions import UserIsAnonymous
 
 
 class User(Handler):

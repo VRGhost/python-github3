@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 # -*- encoding: utf-8 -*-
 
-from github3.core import Paginate
-from github3.converters import Modelizer
+from ..core import Paginate
+from ..converters import Modelizer
 
 
 class MimeTypeMixin(object):

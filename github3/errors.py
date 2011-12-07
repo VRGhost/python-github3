@@ -2,8 +2,8 @@
 # -*- encoding: utf-8 -*-
 
 import json
-import github3.exceptions as exceptions
 
+from . import exceptions
 
 class GithubError(object):
     """ Handler for API errors """
