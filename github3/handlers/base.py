@@ -76,7 +76,7 @@ class Handler(object):
     def _bool(self, resource, **kwargs):
         """ Handler request to boolean response """
 
-        from github3.exceptions import NotFound
+        from ..exceptions import NotFound
         resource = self._prefix_resource(resource)
         try:
             callback = getattr(self._gh, kwargs.get('method', ''),
